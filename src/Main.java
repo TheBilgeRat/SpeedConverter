@@ -32,6 +32,12 @@ public class Main {
         System.out.println(TeenNumberChecker.hasTeen(22, 23, 34));
         System.out.println(TeenNumberChecker.isTeen(9));
         System.out.println(TeenNumberChecker.isTeen(13));
+        System.out.println("==================================================== AreaChecker");
+        System.out.println(AreaCalculator.area(5.0));
+        System.out.println(AreaCalculator.area(-1));
+        System.out.println(AreaCalculator.area(5.0, 4.0));
+        System.out.println(AreaCalculator.area(-1.0, 4.0));
+
     }
 
 }
