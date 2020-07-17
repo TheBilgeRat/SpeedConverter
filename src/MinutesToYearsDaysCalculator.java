@@ -6,10 +6,10 @@ public class MinutesToYearsDaysCalculator {
     public static void printYearsAndDays(long minutes) {
         if(minutes < 0) {
             System.out.println("Invalid Value");
+        } else {
+            long years = ((minutes / HOUR_FACTOR) / DAY_FACTOR) / YEAR_FACTOR;
+            long remDays = ((minutes / HOUR_FACTOR) / DAY_FACTOR) % YEAR_FACTOR;
+            System.out.println(minutes + " min = " + years + " y and " + remDays + " d");
         }
-
-        long years = ((minutes / HOUR_FACTOR) / DAY_FACTOR) / YEAR_FACTOR;
-        long remDays = ((minutes / HOUR_FACTOR) / DAY_FACTOR) % YEAR_FACTOR;
-        System.out.println(minutes + " min = " + years + " y and " + remDays + " d");
     }
 }
