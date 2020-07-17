@@ -46,6 +46,11 @@ public class Main {
         IntEqualityPrinter.printEqual(1, 1, 2);
         IntEqualityPrinter.printEqual(-1, -1, -1);
         IntEqualityPrinter.printEqual(1, 2, 3);
+        System.out.println("==================================================== PlayingCat");
+        System.out.println(PlayingCat.isCatPlaying(true, 10));
+        System.out.println(PlayingCat.isCatPlaying(false, 36));
+        System.out.println(PlayingCat.isCatPlaying(false, 35));
+        System.out.println("==================================================== NumberInWord");
 
     }
 
