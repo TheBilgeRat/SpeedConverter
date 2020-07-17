@@ -41,6 +41,11 @@ public class Main {
         MinutesToYearsDaysCalculator.printYearsAndDays(525600);
         MinutesToYearsDaysCalculator.printYearsAndDays(1051200);
         MinutesToYearsDaysCalculator.printYearsAndDays(561600);
+        System.out.println("==================================================== IntEqualityPrinter");
+        IntEqualityPrinter.printEqual(1, 1, 1);
+        IntEqualityPrinter.printEqual(1, 1, 2);
+        IntEqualityPrinter.printEqual(-1, -1, -1);
+        IntEqualityPrinter.printEqual(1, 2, 3);
     }
 
 }
