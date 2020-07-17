@@ -51,7 +51,18 @@ public class Main {
         System.out.println(PlayingCat.isCatPlaying(false, 36));
         System.out.println(PlayingCat.isCatPlaying(false, 35));
         System.out.println("==================================================== NumberInWord");
-
+        NumberInWord.printNumberInWord(0);
+        NumberInWord.printNumberInWord(1);
+        NumberInWord.printNumberInWord(2);
+        NumberInWord.printNumberInWord(3);
+        NumberInWord.printNumberInWord(4);
+        NumberInWord.printNumberInWord(5);
+        NumberInWord.printNumberInWord(6);
+        NumberInWord.printNumberInWord(7);
+        NumberInWord.printNumberInWord(8);
+        NumberInWord.printNumberInWord(9);
+        NumberInWord.printNumberInWord(-123);
+        NumberInWord.printNumberInWord(234);
     }
 
 }
