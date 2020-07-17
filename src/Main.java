@@ -63,6 +63,11 @@ public class Main {
         NumberInWord.printNumberInWord(9);
         NumberInWord.printNumberInWord(-123);
         NumberInWord.printNumberInWord(234);
+        System.out.println("==================================================== NumberInWord");
+        System.out.println(NumberOfDaysInMonth.isLeapYear(-1600));
+        System.out.println(NumberOfDaysInMonth.isLeapYear(1600));
+        System.out.println(NumberOfDaysInMonth.isLeapYear(2017));
+        System.out.println(NumberOfDaysInMonth.isLeapYear(2000));
     }
 
 }
