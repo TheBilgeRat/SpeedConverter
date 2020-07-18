@@ -6,7 +6,7 @@ public class ReadingUserInputChallenge {
         int count = 1;
         int sum = 0;
         while(count <= 10) {
-            System.out.print("Enter number #" + count + " ");
+            System.out.print("Enter number #" + count + ": ");
             if(scanner.hasNextInt()) {
                 sum += scanner.nextInt();
                 count++;
