@@ -3,26 +3,13 @@ public class SharedDigit {
         if(a < 10 || a > 99 || b < 10 || b > 99) {
             return false;
         }
-        int burnerB = b;
-        while(a > 0) {
-            int lastA = a % 10;
-            int lastB = burnerB % 10;
-            burnerB = burnerB / 10;
 
-            if(lastA == lastB) {
-                return true;
-            }
+        int lastA = a % 10;
+        a = a / 10;
 
-            while(burnerB > 0) {
-                lastB = burnerB % 10;
-                if(lastB == lastA) {
-                    return true;
-                }
-                burnerB = burnerB / 10;
-            }
-            burnerB = b;
-            a = a / 10;
-        }
-        return false;
+        int lastB = b % 10;
+        b = b / 10;
+
+        return ( lastA == lastB || lastA == b || lastB == a || a == b);
     }
 }
