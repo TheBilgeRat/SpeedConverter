@@ -128,6 +128,11 @@ public class Main {
         System.out.println(PerfectNumber.isPerfectNumber(28));
         System.out.println(PerfectNumber.isPerfectNumber(5));
         System.out.println(PerfectNumber.isPerfectNumber(-1));
+        System.out.println("==================================================== NumberToWords");
+        System.out.println(NumberToWords.getDigitCount(0));
+        System.out.println(NumberToWords.getDigitCount(123));
+        System.out.println(NumberToWords.getDigitCount(-12));
+        System.out.println(NumberToWords.getDigitCount(5200));
     }
 
 }
