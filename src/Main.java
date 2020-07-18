@@ -1,3 +1,6 @@
+import com.sun.security.jgss.GSSUtil;
+
+import java.lang.instrument.ClassDefinition;
 import java.sql.SQLOutput;
 
 public class Main {
@@ -101,6 +104,14 @@ public class Main {
         System.out.println(SharedDigit.hasSharedDigit(9,99));
         System.out.println(SharedDigit.hasSharedDigit(15,55));
         System.out.println(SharedDigit.hasSharedDigit(45, 56));
+        System.out.println("==================================================== SharedDigit");
+        System.out.println(LastDigitChecker.hasSameLastDigit(41,22,71));
+        System.out.println(LastDigitChecker.hasSameLastDigit(23, 32, 42));
+        System.out.println(LastDigitChecker.hasSameLastDigit(9, 99, 999));
+        System.out.println("+++");
+        System.out.println(LastDigitChecker.isValid(10));
+        System.out.println(LastDigitChecker.isValid(468));
+        System.out.println(LastDigitChecker.isValid(1051));
     }
 
 }
