@@ -3,9 +3,8 @@ import java.util.Scanner;
 public class MinMaxChallenge {
     public static void getMinMax() {
         Scanner scan = new Scanner(System.in);
-        int min = 0;
-        int max = 0;
-        boolean firstNum = true;
+        int min = Integer.MAX_VALUE;
+        int max = Integer.MIN_VALUE;
 
         while(true) {
             System.out.print("Enter Number: ");
@@ -13,15 +12,11 @@ public class MinMaxChallenge {
                 break;
             }
             int read = scan.nextInt();
-            if(firstNum) {
-                max = read;
-                min = read;
-                firstNum = false;
-                continue;
-            }
+
             if(read > max) {
                 max = read;
-            } else if(read < min) {
+            }
+            if(read < min) {
                 min = read;
             }
         }
