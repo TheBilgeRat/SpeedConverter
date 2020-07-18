@@ -152,6 +152,12 @@ public class Main {
         System.out.println(FlourPacker.canPack(0,5,4)); //true
         System.out.println(FlourPacker.canPack(2,2,11)); //true
         System.out.println(FlourPacker.canPack(-3,2,12)); //false
+        System.out.println("==================================================== LargestPrime");
+        System.out.println(LargestPrime.getLargestPrime(21)); // 7
+        System.out.println(LargestPrime.getLargestPrime(217)); // 31
+        System.out.println(LargestPrime.getLargestPrime(0)); // -1
+        System.out.println(LargestPrime.getLargestPrime(45)); // 5
+        System.out.println(LargestPrime.getLargestPrime(-1)); //-1
     }
 
 }
