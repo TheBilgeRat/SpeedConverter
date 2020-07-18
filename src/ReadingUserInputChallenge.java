@@ -12,8 +12,8 @@ public class ReadingUserInputChallenge {
                 count++;
             } else {
                 System.out.println("invalid number!");
-                scanner.nextLine();
             }
+            scanner.nextLine();
         }
         System.out.println("The sum of your 10 numbers is " + sum);
         scanner.close();
