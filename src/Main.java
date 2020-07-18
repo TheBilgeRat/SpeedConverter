@@ -161,7 +161,7 @@ public class Main {
         System.out.println(LargestPrime.getLargestPrime(2)); //2
         System.out.println("==================================================== LargestPrime");
         DiagonalStar.printSquareStar(5);
-         //DiagonalStar.printSquareStar(8);
+        DiagonalStar.printSquareStar(8);
     }
 
 }
