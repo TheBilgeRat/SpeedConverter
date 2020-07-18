@@ -92,6 +92,10 @@ public class Main {
         System.out.println(FirstLastDigitSum.sumFirstAndLastDigit(0));
         System.out.println(FirstLastDigitSum.sumFirstAndLastDigit(5));
         System.out.println(FirstLastDigitSum.sumFirstAndLastDigit(-10));
+        System.out.println("==================================================== EvenDigitSum");
+        System.out.println(EvenDigitSum.getEvenDigitSum(123456789));
+        System.out.println(EvenDigitSum.getEvenDigitSum(252));
+        System.out.println(EvenDigitSum.getEvenDigitSum(-22));
     }
 
 }
