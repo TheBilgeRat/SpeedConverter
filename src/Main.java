@@ -118,6 +118,11 @@ public class Main {
         System.out.println(GreatestCommonDivisor.getGreatestCommonDivisor(9, 18));
         System.out.println(GreatestCommonDivisor.getGreatestCommonDivisor(81, 153));
         System.out.println(GreatestCommonDivisor.getGreatestCommonDivisor(1010, 10));
+        System.out.println("==================================================== Factor Printer");
+        FactorPrinter.printFactors(6);
+        FactorPrinter.printFactors(32);
+        FactorPrinter.printFactors(10);
+        FactorPrinter.printFactors(-1);
     }
 
 }
