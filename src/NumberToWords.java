@@ -4,8 +4,12 @@ public class NumberToWords {
             System.out.println("Invalid Value");
         } else {
             int reversedNum = reverse(number);
-            for(int i = 0; i < getDigitCount(reversedNum); i++) {
-                switch (reversedNum % 10) {
+            int revCnt = getDigitCount(reversedNum);
+            int origCnt = getDigitCount(number);
+            for(int i = 0; i < revCnt; i++) {
+                int firstDigit = reversedNum % 10;
+                reversedNum = reversedNum / 10;
+                switch (firstDigit) {
                     case 0:
                         System.out.println("Zero");
                         break;
@@ -40,8 +44,8 @@ public class NumberToWords {
                         break;
                 }
             }
-            if(getDigitCount(number) > getDigitCount(reversedNum)) {
-                for(int i = getDigitCount(reversedNum); i < getDigitCount(number); i++) {
+            if(origCnt > revCnt) {
+                for(int i = revCnt; i < origCnt; i++) {
                     System.out.println("Zero");
                 }
             }
