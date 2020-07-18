@@ -162,6 +162,8 @@ public class Main {
         System.out.println("==================================================== LargestPrime");
         DiagonalStar.printSquareStar(5);
         DiagonalStar.printSquareStar(8);
+        System.out.println("==================================================== ReadingUserInputChallenge");
+        ReadingUserInputChallenge.readUserNumbers();
     }
 
 }
