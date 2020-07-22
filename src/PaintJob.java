@@ -11,7 +11,7 @@ public class PaintJob {
         if(width <= 0.0 || height <= 0.0 || areaPerBucket <= 0.0) {
             return -1;
         }
-        return ((int) Math.ceil((width * height) / areaPerBucket));
+        return (int) Math.ceil((width * height) / areaPerBucket);
     }
 
     public static int getBucketCount(double area, double areaPerBucket) {
