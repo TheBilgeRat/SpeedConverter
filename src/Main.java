@@ -219,9 +219,13 @@ public class Main {
         {
             ReadingUserInputChallenge.readUserNumbers();
         }
-        */
         System.out.println("==================================================== MinMaxChallenge");
         MinMaxChallenge.getMinMax();
+        */
+        System.out.println("==================================================== InputCalculator");
+        InputCalculator.inputThenPrintSumAndAverage();
+        System.out.println("==================================================== PaintJob");
+        System.out.println();
     }
 
 }
